@@ -1,27 +1,44 @@
-# CursoAngularListaTarefas
+# Lista de Tarefas Angular 17.0.2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+Esta aplicação Angular foi desenvolvida como parte de um projeto de estudos, visando demonstrar o uso de componentes, @Input e @Output, além de integração com o LocalStorage para armazenamento de dados localmente. Além disso, a biblioteca Sweet Alert foi utilizada para fornecer uma experiência de usuário mais agradável ao lidar com mensagens de alerta.
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de iniciar, certifique-se de ter o seguinte instalado em sua máquina:
 
-## Code scaffolding
+- Node.js e npm (geralmente instalados juntos). Você pode baixá-los em [nodejs.org](https://nodejs.org/).
+- Angular CLI (Command Line Interface). Você pode instalá-lo globalmente com o comando npm:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install -g @angular/cli
+````
 
-## Build
+## Instalação
+1. Clone este repositório para o seu ambiente local:
+    ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2.  Navegue até o diretório da aplicação:
+    ```bash
+    cd nome-do-repositorio
+    
+3.  Instale as dependências do projeto:
+    ```bash
+    npm install
 
-## Running unit tests
+## Uso
+Para iniciar a aplicação localmente, utilize o comando:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+ng serve
+````
+Depois de compilar com sucesso, abra um navegador e acesse `http://localhost:4200/`.
 
-## Running end-to-end tests
+## Funcionalidades
+- Adicionar uma nova tarefa.
+- Marcar uma tarefa como concluída.
+- Remover uma tarefa da lista.
+- Remover todas as tarefas da lista.
+- Armazenamento local das tarefas utilizando o LocalStorage.
+- Integração de Sweet Alert para mensagens de confirmação.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
