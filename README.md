@@ -3,8 +3,8 @@
 Esta aplicação Angular foi desenvolvida como parte de um projeto de estudos, visando demonstrar o uso de componentes, @Input e @Output, além de integração com o LocalStorage para armazenamento de dados localmente. Além disso, a biblioteca Sweet Alert foi utilizada para fornecer uma experiência de usuário mais agradável ao lidar com mensagens de alerta.
 
 <p float="left">
-  <img src="src/assets/img/inicio.png" width="500" height="490"/>
-  <img src="src/assets/img/geral.png" width="500" /> 
+  <img src="src/assets/img/inicio.png" width="400" height="490"/>
+  <img src="src/assets/img/geral.png" width="400" /> 
 </p>
 
 
